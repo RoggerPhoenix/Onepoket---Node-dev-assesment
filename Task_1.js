@@ -6,8 +6,8 @@ const server = restify.createServer();
 
 server.get('/', function (req, res, next) {
 
-    res.statusCode = 200; // Set status code to 200 (OK)
-  res.setHeader('Content-Type', 'text/plain'); // Set content type to plain text
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain'); 
   res.end('Hello World');
 
 })
